@@ -34,7 +34,7 @@ const channels = [
 
 export default function Contact() {
   return (
-    <section id="contact" className="relative scroll-mt-24 py-20 md:py-28">
+    <section id="contact" className="relative overflow-hidden scroll-mt-24 py-20 md:py-28">
       <div
         className="absolute bottom-0 left-1/2 h-[400px] w-[720px] -translate-x-1/2 rounded-full opacity-20 blur-3xl"
         style={{ background: 'radial-gradient(closest-side, rgba(34,211,238,0.4), transparent)' }}

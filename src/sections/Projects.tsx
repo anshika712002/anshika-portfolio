@@ -121,7 +121,7 @@ export default function Projects() {
   const compact = projects.filter((p) => !['planwise', 'spill'].includes(p.id!)) as Project[]
 
   return (
-    <section id="projects" className="relative scroll-mt-24 py-20 md:py-28">
+    <section id="projects" className="relative overflow-hidden scroll-mt-24 py-20 md:py-28">
       <div
         className="absolute top-1/4 right-[-260px] h-[460px] w-[560px] rounded-full opacity-15 blur-3xl"
         style={{ background: 'radial-gradient(closest-side, rgba(167,139,250,0.5), transparent)' }}

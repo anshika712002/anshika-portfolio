@@ -15,7 +15,7 @@ const iconMap: Record<string, typeof Cpu> = {
 
 export default function Skills() {
   return (
-    <section id="skills" className="relative scroll-mt-24 py-20 md:py-28">
+    <section id="skills" className="relative overflow-hidden scroll-mt-24 py-20 md:py-28">
       <div
         className="absolute top-1/3 left-[-240px] h-[420px] w-[520px] rounded-full opacity-15 blur-3xl"
         style={{ background: 'radial-gradient(closest-side, rgba(34,211,238,0.5), transparent)' }}
